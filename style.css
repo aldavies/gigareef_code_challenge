@@ -1,0 +1,102 @@
+/*had to reset margin and padding*/
+html, body {
+	margin:-1px;
+	padding:0px;
+}
+
+/*The hero and text within it*/
+#hero {
+	border: 1px solid black;
+	height: 620px;
+	width: 100%;
+	left: 0;
+	right: 0;
+	background: url("./img/Mountains.jpg");
+	background-size: cover;
+}
+
+#hero-text {
+	margin-top: 12em;
+}
+
+
+
+#hero-text  h1, h3, p {	
+	margin: 0px;
+	text-align: center;
+	vertical-align: middle;
+	font-family: Avenir, Lato, sans-serif;
+	color: white;
+}
+
+#hero-text h1 {
+	font-size: 100px;
+	margin-bottom: 10px
+}
+
+#hero-text p {
+	font-size: .9em;
+}
+
+#green-oasis {
+	letter-spacing: 2px;
+}
+
+#explore-mauritius {
+	margin-top: 10em;
+	margin-bottom: .5em;
+}
+
+/*end of hero css*/
+
+#treasure-island {
+	position: relative;
+	height: 615px;
+}
+
+/*image of island that is floated left*/
+#island {
+	float: left;
+	height: 500px;
+	width: 50%;
+	display: inline-block;
+}
+
+/*h1 text and alignment on page*/
+#treasure-island > h1 {
+	text-align: right;
+	margin-right: .5em;
+	font-size: 48px;
+	text-decoration: underline;
+}
+
+/*paragraph 2*/
+#p2 {
+	margin-top: 2em;
+	font-size: 22px;
+	font-style: italic;
+	display:inline-block;
+}
+
+/*paragraph 3*/
+#p3 {
+	line-height: 1.8;
+    opacity: .5;
+    font-size: 15px;
+    margin-top: 4em;
+    display: inline-block;
+}
+
+/*image of house in bottom right corner*/
+#house {
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	height: 200px;
+	width: 25%;
+	z-index: -1;
+}
+
+
+
+
